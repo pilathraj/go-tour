@@ -1,4 +1,4 @@
-// Package main calculate sum of two int
+// Package main calculate sum of two integers
 package main
 
 import "fmt"
