@@ -1,4 +1,4 @@
-// Package main swap function used to swap the strings
+// Package main split function return two integer
 package main
 
 import "fmt"
@@ -8,6 +8,7 @@ func split(sum int) (x, y int) {
 	y = sum - x
 	return
 }
+
 func main() {
 	fmt.Println(split(100))
 }
