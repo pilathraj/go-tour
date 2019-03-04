@@ -1,4 +1,4 @@
-// Package main calculate sum of 100 number
+// Package lib calculate sum of 100 number
 package lib
 
 func Add() int {
