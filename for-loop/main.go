@@ -15,4 +15,7 @@ func main() {
 	fmt.Println("Sum: ", sum) //Sum:  45
 	sum = lib.Add()
 	fmt.Println("Sum: ", sum) //Sum:  1024
+	sum = lib.GosWhile()
+	fmt.Println("Sum: ", sum) //Sum:  128
+
 }
