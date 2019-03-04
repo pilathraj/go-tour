@@ -17,5 +17,6 @@ func main() {
 	fmt.Println("Sum: ", sum) //Sum:  1024
 	sum = lib.GosWhile()
 	fmt.Println("Sum: ", sum) //Sum:  128
+	//lib.InfiniteLoop() // it prints Hello Pilathraj infinte times
 
 }
