@@ -1,4 +1,4 @@
-// Package main variable declaration with initializer
+// Package main short variable declarations
 package main
 
 import "fmt"
