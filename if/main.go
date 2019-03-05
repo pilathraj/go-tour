@@ -18,4 +18,9 @@ func main() {
 	fmt.Println(lib.Pow(2, 5, 100)) // 32
 	fmt.Println(lib.Pow(2, 5, 10))  // 10
 
+	fmt.Println(
+		lib.Pow2(3, 2, 10),
+		lib.Pow2(3, 3, 20),
+	) // 9 20
+
 }
