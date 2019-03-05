@@ -3,6 +3,7 @@ package main
 
 import (
 	"fmt"
+	"go-tour/switch/lib"
 	"runtime"
 )
 
@@ -16,4 +17,6 @@ func main() {
 	default:
 		fmt.Printf("%s", os)
 	}
+	lib.FindSat()
+
 }
