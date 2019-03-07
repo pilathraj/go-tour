@@ -17,4 +17,5 @@ func main() {
 	fmt.Println(*p) // read j through the pointer 2701
 	*p = *p / 37    // divide j through the pointer
 	fmt.Println(j)  // see the new value of j is 73
+	// p = 27          // error - We should ad *p = without the explicit dereference.
 }
